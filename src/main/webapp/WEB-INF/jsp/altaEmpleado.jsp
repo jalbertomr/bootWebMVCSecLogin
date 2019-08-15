@@ -13,7 +13,7 @@
     <jsp:include page="menu.jsp" />
 	<div id="agregaEmpleado">
 		<h4>Lista de Empleados</h4>
-		<form:form action="altaEmpleado" method="post" commandName="empleado">
+		<form:form action="altaEmpleado" method="post" modelAttribute="empleado">
 			<p><label>Empleado Id</label>
 			<form:input path="empId"/> </p>
 			<p><label>Empleado	Nombre</label>
